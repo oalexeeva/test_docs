@@ -13,29 +13,25 @@
     verbose: # optional, default is true
     # GitHub token
     token: # default is ${{ github.token }}
-    
-    
-title: "Документация"
-description: A Jekyll theme for documentation
-baseurl: "/test_docs" # the subpath of your site, e.g. /blog
-url: "https://oalexeeva.github.io/test_docs/" # the base hostname & protocol for your site, e.g. http://example.com
-
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: sql
-    css_class   : 'highlight'
-    span:
-      line_numbers: false
+    title: "Документация"
+    description: A Jekyll theme for documentation
+    baseurl: "/test_docs" # the subpath of your site, e.g. /blog
+    url: "https://oalexeeva.github.io/test_docs/" # the base hostname & protocol for your site, e.g. http://example.com
+    markdown: kramdown
+    highlighter: rouge
+    kramdown:
+      input: GFM
+      syntax_highlighter_opts:
+      default_lang: sql
+      css_class   : 'highlight'
+      span:
+        line_numbers: false
     block:
       line_numbers: false
       start_line: 1
-remote_theme: minima
-color_scheme: custom_colors
-#lang: ru
-search_enabled: true
-
-search:
-  rel_url: false
+    remote_theme: minima
+    color_scheme: custom_colors
+    #lang: ru
+    search_enabled: true 
+      search: 
+      rel_url: false
